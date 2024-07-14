@@ -50,7 +50,6 @@ HackTrack is a web application that helps users track their participation in hac
    ```bash
    npm start
    ```
-
 6. Open your web browser and navigate to `http://localhost:3000` to view the application.
 
 ## Usage
