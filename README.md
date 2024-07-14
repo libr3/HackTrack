@@ -1,7 +1,3 @@
-Certainly! Below is a template for a README file that includes details about your project, setup instructions, dependencies, and usage guidelines:
-
----
-
 # HackTrack
 
 HackTrack is a web application that helps users track their participation in hackathons, manage projects, and showcase achievements. It provides a platform for users to log hackathons they have participated in, add details about their projects, and list any awards they have received.
@@ -84,8 +80,4 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust the sections, add more details, or include specific instructions relevant to your deployment environment. This README template should provide a good starting point for documenting your HackTrack project.
+This project is licensed under the GPL License - see the [COPYING](COPYING) file for details.
