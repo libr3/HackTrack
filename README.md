@@ -64,13 +64,16 @@ HackTrack is a web application that helps users track their participation in hac
 
 ## Screenshots
 
-![Dashboard](/screenshots/dashboard.png)
+![Dashboard]![image](https://github.com/user-attachments/assets/4b171382-cc47-4109-97f0-227e1e0a7f49)
+
 *Dashboard view showcasing summary information.*
 
-![Profile](/screenshots/profile.png)
+![Profile]![image](https://github.com/user-attachments/assets/1b5358e8-3795-47b5-be28-96012570812c)
+
 *Profile view allowing users to manage their personal details.*
 
-![Hackathons](/screenshots/hackathons.png)
+![Hackathons]![image](https://github.com/user-attachments/assets/1bd57f9c-0577-4bcd-ba64-3c956b7515d8)
+
 *Hackathons view displaying a list of hackathons a user has participated in.*
 
 ## Contributing
