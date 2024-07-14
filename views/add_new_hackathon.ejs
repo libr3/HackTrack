@@ -1,0 +1,29 @@
+<%- include('partials/header', { title: 'Add New Hackathon' }) %>
+<div class="container add-hackathon">
+    <header class="add-hackathon">
+        <a href="/dashboard" class="back-button add-hackathon">&larr; Back to Dashboard</a>
+    </header>
+    <main class="add-hackathon">
+        <h1 class="add-hackathon">Add New Hackathon</h1>
+        <form id="add-hackathon-form" class="add-hackathon" action="/add_new_hackathon" method="POST">
+            <div class="form-group add-hackathon">
+                <label for="hackathon-name" class="add-hackathon">Hackathon Name</label>
+                <input type="text" id="hackathon-name" name="name" class="add-hackathon" placeholder="Enter hackathon name" required>
+            </div>
+            <div class="form-group add-hackathon">
+                <label for="location" class="add-hackathon">Location</label>
+                <input type="text" id="location" name="location" class="add-hackathon" placeholder="Enter location" required>
+            </div>
+            <div class="form-group add-hackathon">
+                <label for="date" class="add-hackathon">Date</label>
+                <input type="date" id="date" name="date" class="add-hackathon" required>
+            </div>
+            <div class="form-group add-hackathon">
+                <label for="project-title" class="add-hackathon">Project Title</label>
+                <input type="text" id="project-title" name="project_title" class="add-hackathon" placeholder="Enter project title" required>
+            </div>
+            <button type="submit" class="submit-button add-hackathon">Submit</button>
+        </form>
+    </main>
+</div>
+<%- include('partials/footer') %>

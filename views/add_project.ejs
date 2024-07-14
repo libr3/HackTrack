@@ -1,0 +1,24 @@
+<%- include('partials/header', { title: 'Add Project' }) %>
+<div class="add-award container">
+    <h2 class="add-award">Add Project</h2>
+    <form action="/projects/<%= hack_id %>" method="POST" class="add-award-form">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+
+        <label for="tech_stack">Tech Stack</label>
+        <input type="text" id="tech_stack" name="tech_stack" required>
+
+        <label for="repo_link">Repository Link</label>
+        <input type="url" id="repo_link" name="repo_link" required>
+
+        <label for="demo_link">Demo Link</label>
+        <input type="url" id="demo_link" name="demo_link" required>
+
+        <button type="submit" class="btn">Add Project</button>
+    </form>
+</div>
+
+<%- include('partials/footer') %>

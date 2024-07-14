@@ -1,0 +1,17 @@
+<%- include('partials/header', { title: 'Add New Award' }) %>
+<div class="container add-award">
+    <a href="/awards" class="back-button add-award">Back to Awards</a>
+    <h1 class="add-award">Add New Award</h1>
+    <form action="/awards" method="POST" class="add-award-form">
+        <label for="hackathon_id">Hackathon ID</label>
+        <input type="text" id="hackathon_id" name="hackathon_id" required>
+        <label for="award_name">Award Name</label>
+        <input type="text" id="award_name" name="award_name" required>
+        <label for="award_details">Award Details</label>
+        <input type="text" id="award_details" name="award_details" required>
+        <label for="award_link">Award Link</label>
+        <input type="text" id="award_link" name="award_link" required>
+        <button type="submit" class="btn">Add Award</button>
+    </form>
+</div>
+<%- include('partials/footer') %>
