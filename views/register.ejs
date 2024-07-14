@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackTrack - Sign Up</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body class="auth">
+    <div class="container auth">
+        <header class="auth">
+            <h1 class="auth">HackTrack</h1>
+        </header>
+        <form action="/register" method="POST" class="auth">
+            <div class="form-group auth">
+                <label for="email" class="auth">Email</label>
+                <input type="email" id="email" name="email" class="auth" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group auth">
+                <label for="username" class="auth">Username</label>
+                <input type="text" id="username" name="username" class="auth" placeholder="Choose a username" required>
+            </div>
+            <div class="form-group auth">
+                <label for="password" class="auth">Password</label>
+                <input type="password" id="password" name="password" class="auth" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="auth">Sign Up</button>
+            <br>
+            <a href="/login" class="auth">Already have an account? Sign In</a>
+            <br>
+            </form>
+            <form action="/auth/google"  class="auth" >
+            <button type="submit" id="googleAuthButton" class="google-button auth">Sign Up with Google</button>
+        </form>
+    </div>
+    <footer class="auth">
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </footer>
+</body>
+</html>

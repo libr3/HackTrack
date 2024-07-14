@@ -1,0 +1,13 @@
+<%- include('partials/header', { title: 'Awards and Achievements' }) %>
+<div class="container view-awards">
+    <a href="/dashboard" class="back-button view-awards">Back to Dashboard</a>
+    <h1 class="view-awards">Awards and Achievements</h1>
+    <ul class="award-list view-awards">
+        <% awards.forEach(a => { %>
+            <li><%= a.award_name %> - <%= a.award_details %> - <a href="<%= a.award_link %>">Link</a></li>
+        <% }) %>
+    </ul>
+    <a href="/add_new_award" class="add-award-button view-awards">Add New Award</a>
+</div>
+<%- include('partials/footer') %>
+

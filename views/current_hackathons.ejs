@@ -1,0 +1,20 @@
+<%- include('partials/header', { title: 'Current Hackathons' }) %>
+<div class="container view-hackathons">
+    <header class="view-hackathons">
+        <a href="/dashboard" class="back-button view-hackathons">&larr; Back to Dashboard</a>
+        <h1 class="view-hackathons">Current Hackathons</h1>
+    </header>
+    <main class="view-hackathons">
+        <ul class="hackathon-list view-hackathons">
+            <% hackathon.forEach(hack => { %>
+                <li class="hackathon-item view-hackathons">
+                    <span class="hackathon-name view-hackathons"><%= hack.name %></span>
+                    <span class="hackathon-date view-hackathons"><%= hack.date %></span>
+                    <span class="hackathon-project view-hackathons"><%= hack.project_title %></span>
+                    <a href="/projects/<%= hack.id %>" class="add-project-button view-hackathons">Add Project</a>
+                </li>
+            <% }) %>
+        </ul>
+    </main>
+</div>
+<%- include('partials/footer') %>

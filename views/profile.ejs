@@ -1,0 +1,14 @@
+<%- include('partials/header', { title: 'Profile' }) %>
+<div class="section profile">
+    <h2>My Profile</h2>
+    <div class="profile-pic">
+        <img id="profileImage" src="/images/default-profile.png" alt="Profile Picture">
+        <label for="profilePicInput" class="btn">Change Profile Picture</label>
+        <input type="file" id="profilePicInput" accept="image/*" style="display:none;">
+    </div>
+    <div id="profileDetails">
+        <p>Name: <span id="profileName"><%= user.username %></span></p>
+        <p>Email: <span id="profileEmail"><%= user.email %></span></p>
+    </div>
+</div>
+<%- include('partials/footer') %>

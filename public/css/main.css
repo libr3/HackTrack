@@ -1,0 +1,464 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Footer styles */
+footer {
+    color: #555;
+}
+
+/* Footer link styles */
+footer a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Footer link hover effect */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Specific styles for the main index.html page */
+
+/* Body styles for the main page */
+body.index {
+    display: flex; /* Flexbox for vertical centering */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Container styles for the main page */
+.container.index {
+    text-align: center; /* Center align content */
+    max-width: 600px; /* Maximum container width */
+    margin: 20px; /* Padding inside container */
+    padding: 20px; /* Internal padding */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Main title styles for the main page */
+h1.index {
+    font-size: 32px; /* Larger font size */
+    margin-bottom: 20px; /* Bottom margin */
+    color: #333; /* Dark text color */
+}
+
+/* Description paragraph styles for the main page */
+p.index {
+    font-size: 18px; /* Larger font size */
+    color: #666; /* Darker gray text color */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Call-to-action button styles for the main page */
+button.cta-button.index {
+    padding: 15px 30px; /* Padding */
+    font-size: 16px; /* Button font size */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transitions */
+}
+
+/* Button hover effect for the main page */
+button.cta-button.index:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+    opacity: 0.8; /* Reduced opacity */
+}
+
+/* Footer styles specific for the main page */
+footer.index {
+    margin-top: 30px; /* Top margin */
+    font-size: 14px; /* Smaller font size */
+    color: #888; /* Lighter gray text color */
+}
+
+/* Container styles for auth pages */
+.container.auth {
+    max-width: 600px; /* Maximum container width */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Internal padding */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center align content */
+}
+
+/* Header styles for auth pages */
+header.auth {
+    margin-bottom: 20px;
+    text-align: center; /* Center align header */
+}
+
+/* Title styles for auth pages */
+h1.auth {
+    font-size: 32px; /* Larger font size */
+    margin: 0;
+}
+
+/* Form styles for auth pages */
+form.auth {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form group styles for auth pages */
+.form-group.auth {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label styles for auth pages */
+label.auth {
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input styles for auth pages */
+input.auth {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles for auth pages */
+button.auth {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Google button styles for auth pages */
+button.google-button.auth {
+    background-color: #db4437;
+}
+
+/* Button hover effect for auth pages */
+button.auth:hover {
+    opacity: 0.8;
+}
+
+/* Footer styles specific for auth pages */
+footer.auth {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Container styles for dashboard */
+.dashboard .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+}
+
+/* Main title styles */
+.dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Back button styles */
+.dashboard a.back-button {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+body.dashboard {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard a.back-button:hover {
+    opacity: 0.8;
+}
+
+/* Dashboard section styles */
+.dashboard .dashboard-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Button styles for dashboard */
+.dashboard a.dashboard-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.dashboard a.dashboard-button:hover {
+    opacity: 0.8;
+}
+
+/* Container styles for add hackathon page */
+.container.add-hackathon {
+    max-width: 600px; /* Maximum container width */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Internal padding */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center align content */
+}
+
+/* Header styles for add hackathon page */
+header.add-hackathon {
+    margin-bottom: 20px;
+}
+
+/* Back button styles for add hackathon page */
+a.back-button.add-hackathon {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue text */
+    font-size: 16px; /* Font size */
+    display: inline-block; /* Inline block to add padding */
+    padding: 10px 0; /* Padding */
+}
+
+/* Back button hover effect for add hackathon page */
+a.back-button.add-hackathon:hover {
+    opacity: 0.8; /* Reduced opacity */
+}
+
+/* Main title styles for add hackathon page */
+h1.add-hackathon {
+    font-size: 24px; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+    color: #333; /* Dark text color */
+}
+
+/* Form styles for add hackathon page */
+form.add-hackathon {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form group styles for add hackathon page */
+.form-group.add-hackathon {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label styles for add hackathon page */
+label.add-hackathon {
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input styles for add hackathon page */
+input.add-hackathon {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button styles for add hackathon page */
+button.submit-button.add-hackathon {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 10px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    margin-top: 10px; /* Top margin */
+}
+
+/* Submit button hover effect for add hackathon page */
+button.submit-button.add-hackathon:hover {
+    opacity: 0.8; /* Reduced opacity */
+}
+
+
+/* Styles specific to View Current Hackathons page */
+/* Back button styles */
+a.back-button.view-hackathons {
+    text-decoration: none;
+    color: #007bff; /* Blue text */
+    font-size: 16px; /* Font size */
+    display: inline-block; /* Inline block to add padding */
+    padding: 10px 0; /* Padding */
+    text-align: center; /* Center text */
+    width: 100%; /* Full width to center content */
+}
+
+/* Back button hover effect */
+a.back-button.view-hackathons:hover {
+    opacity: 0.8; /* Reduced opacity */
+}
+
+/* Main title styles for view hackathons page */
+h1.view-hackathons {
+    font-size: 24px; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+    color: #333; /* Dark text color */
+}
+
+/* Hackathon list styles for view hackathons page */
+ul.hackathon-list.view-hackathons {
+    list-style: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+}
+
+/* Hackathon item styles for view hackathons page */
+li.hackathon-item.view-hackathons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Bottom border */
+}
+
+/* Hackathon name styles for view hackathons page */
+span.hackathon-name.view-hackathons {
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Blue text */
+}
+
+/* Hackathon date styles for view hackathons page */
+span.hackathon-date.view-hackathons {
+    color: #666; /* Grey text */
+}
+
+/* Hackathon project title styles for view hackathons page */
+span.hackathon-project.view-hackathons {
+    color: #333; /* Dark text */
+}
+
+/* Add project button styles for view hackathons page */
+a.add-project-button.view-hackathons {
+    text-decoration: none; /* No underline */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Add project button hover effect for view hackathons page */
+a.add-project-button.view-hackathons:hover {
+    opacity: 0.8; /* Reduced opacity */
+}
+/* General styles for the Awards and Achievements page */
+body.view-awards {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering container */
+.container.view-awards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Back button styles for view awards page */
+a.back-button.view-awards {
+    text-decoration: none;
+    color: #007bff; /* Blue text */
+    font-size: 16px; /* Font size */
+    display: inline-block; /* Inline block to add padding */
+    padding: 10px 0; /* Padding */
+    text-align: center; /* Center text */
+    width: 100%; /* Full width to center content */
+}
+
+/* Back button hover effect */
+a.back-button.view-awards:hover {
+    opacity: 0.8; /* Reduced opacity */
+}
+
+/* Main title styles for view awards page */
+h1.view-awards {
+    font-size: 24px; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+    color: #333; /* Dark text color */
+    white-space: nowrap; /* Ensure title stays on one line */
+}
+
+/* Award list styles for view awards page */
+ul.award-list.view-awards {
+    list-style: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+}
+
+/* Award item styles for view awards page */
+li.award-item.view-awards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Bottom border */
+}
+
+/* Award name styles for view awards page */
+span.award-name.view-awards {
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Blue text */
+}
+
+/* Award details styles for view awards page */
+span.award-details.view-awards {
+    color: #666; /* Grey text */
+}
+
+/* Add award button styles for view awards page */
+a.add-award-button.view-awards {
+    text-decoration: none; /* No underline */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Inline block to add padding */
+    margin-top: 20px; /* Top margin */
+    cursor: pointer; /* Pointer cursor */
+    margin-left: auto; /* Centering */
+    margin-right: auto; /* Centering */
+}
+/* Add award button hover effect for view awards page */
+a.add-award-button.view-awards:hover {
+    opacity: 0.8; /* Reduced opacity */
+}
